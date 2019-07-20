@@ -12,11 +12,11 @@
     <link type="text/css" rel="stylesheet" href="{{mix('css/app.css')}}">
 </head>
 <body class="site">
-@include('layout.header')
+@include('layouts.header')
 <div class="main">
     @yield('content')
 </div>
-@include('layout.footer')
+@include('layouts.footer')
 
 
 <script type="text/javascript" src="{{mix('js/app.js')}}"></script>
