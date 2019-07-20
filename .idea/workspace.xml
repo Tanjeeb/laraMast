@@ -6,6 +6,7 @@
       <change afterPath="$PROJECT_DIR$/../healthSys/resources/views/pages/contact.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../healthSys/resources/views/pages/product.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../healthSys/resources/views/pages/products.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../healthSys/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../healthSys/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../healthSys/app/Http/Controllers/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../healthSys/app/Http/Controllers/PagesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../healthSys/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../healthSys/public/css/app.css" afterDir="false" />
@@ -16,7 +17,6 @@
       <change beforePath="$PROJECT_DIR$/../healthSys/resources/views/layout/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../healthSys/resources/views/layout/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../healthSys/resources/views/pages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../healthSys/resources/views/pages/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../healthSys/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../healthSys/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,12 +33,8 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -51,6 +47,8 @@
       <list>
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/home.blade.php" />
       </list>
     </option>
   </component>
@@ -139,24 +137,15 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
     </include_path>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/laraMast.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/php.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="249" />
     <option name="y" value="48" />
     <option name="width" value="1161" />
     <option name="height" value="544" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -178,13 +167,41 @@
               <item name="laraMast" type="b2602c69:ProjectViewProjectNode" />
               <item name="laraMast" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laraMast" type="b2602c69:ProjectViewProjectNode" />
               <item name="laraMast" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laraMast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laraMast" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laraMast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthSys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laraMast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthSys" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laraMast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthSys" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laraMast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthSys" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,24 +248,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563639601341</updated>
-      <workItem from="1563639602993" duration="575000" />
+      <workItem from="1563639602993" duration="830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="575000" />
+    <option name="totallyTimeSpent" value="830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="249" y="48" width="1161" height="544" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24978466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24978466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32845187" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32845187" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -287,6 +305,29 @@
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../healthSys/resources/views/pages/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../healthSys/resources/views/layout/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
