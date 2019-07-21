@@ -1,0 +1,35 @@
+.site {
+    margin: auto;
+    max-width: 50em;
+}
+
+.wrap {
+    margin: auto 1em;
+}
+
+.d_f {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.j_c-sb {
+    justify-content: space-between;
+}
+
+/*--------------------------------------------------------------
+CSS Grid layout for modern browsers:
+--------------------------------------------------------------*/
+
+@supports (grid-area: auto) {
+
+    @media screen and (min-width: 50em) {
+        .g-col-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .g-col-1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
