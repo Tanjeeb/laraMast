@@ -6,7 +6,7 @@
       <change afterPath="$PROJECT_DIR$/../healthSys/resources/views/pages/contact.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../healthSys/resources/views/pages/product.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../healthSys/resources/views/pages/products.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_frame.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/admin/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../healthSys/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../healthSys/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../healthSys/app/Http/Controllers/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../healthSys/app/Http/Controllers/PagesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../healthSys/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../healthSys/public/css/app.css" afterDir="false" />
@@ -34,12 +34,8 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/sass/_frame.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/resources/sass/admin/app.scss">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -152,10 +148,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="597" />
+    <option name="x" value="598" />
     <option name="y" value="27" />
-    <option name="width" value="878" />
-    <option name="height" value="783" />
+    <option name="width" value="768" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -165,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,6 +179,13 @@
               <item name="laraMast" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laraMast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laraMast" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laraMast" type="b2602c69:ProjectViewProjectNode" />
@@ -239,7 +243,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,18 +289,19 @@
       <option name="presentableId" value="Default" />
       <updated>1563639601341</updated>
       <workItem from="1563639602993" duration="2179000" />
-      <workItem from="1563682095633" duration="2477000" />
+      <workItem from="1563682095633" duration="3398000" />
+      <workItem from="1563696161678" duration="813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4656000" />
+    <option name="totallyTimeSpent" value="6390000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="597" y="27" width="878" height="783" extended-state="0" />
+    <frame x="598" y="27" width="768" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33029613" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3294271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -312,7 +316,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21896791" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23111111" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -463,10 +467,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/_frame.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        <state relative-caret-position="242">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/admin/app.scss">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
